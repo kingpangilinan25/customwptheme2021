@@ -1,0 +1,325 @@
+/*   
+Theme Name: King Starter Theme
+Theme URI: https://kingwebservices.com
+Description: This is a WordPress Theme only for starter
+Author: King
+Author URI: https://kingwebservices.com
+Version: 1
+*/
+img {
+  max-width: 100%;
+}
+/* html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+sub,
+sup,
+tt,
+var,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+} */
+
+/*custom reset*/
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*commentlist style reset*/
+
+ol.commentlist {
+  list-style: none;
+}
+ol.commentlist li {
+}
+ol.commentlist li.alt {
+}
+ol.commentlist li.bypostauthor {
+}
+ol.commentlist li.byuser {
+}
+ol.commentlist li.comment-author-admin {
+}
+ol.commentlist li.comment {
+  border-bottom: 1px dotted #666;
+  padding: 10px;
+}
+ol.commentlist li.comment div.comment-author {
+}
+ol.commentlist li.comment div.vcard {
+}
+ol.commentlist li.comment div.vcard cite.fn {
+  font-style: normal;
+}
+ol.commentlist li.comment div.vcard cite.fn a.url {
+}
+ol.commentlist li.comment div.vcard img.avatar {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+ol.commentlist li.comment div.vcard img.avatar-32 {
+}
+ol.commentlist li.comment div.vcard img.photo {
+}
+ol.commentlist li.comment div.vcard span.says {
+}
+ol.commentlist li.comment div.commentmetadata {
+}
+ol.commentlist li.comment div.comment-meta {
+  font-size: 10px;
+}
+ol.commentlist li.comment div.comment-meta a {
+  color: #ccc;
+}
+ol.commentlist li.comment p {
+}
+ol.commentlist li.comment ul {
+}
+ol.commentlist li.comment div.reply {
+  font-size: 11px;
+}
+ol.commentlist li.comment div.reply a {
+  font-weight: bold;
+}
+ol.commentlist li.comment ul.children {
+  list-style: none;
+  margin: 10px 0 0;
+}
+ol.commentlist li.comment ul.children li {
+}
+ol.commentlist li.comment ul.children li.alt {
+}
+ol.commentlist li.comment ul.children li.bypostauthor {
+}
+ol.commentlist li.comment ul.children li.byuser {
+}
+ol.commentlist li.comment ul.children li.comment {
+}
+ol.commentlist li.comment ul.children li.comment-author-admin {
+}
+ol.commentlist li.comment ul.children li.depth-2 {
+  border-left: 5px solid #555;
+  margin: 0 0 10px 10px;
+}
+ol.commentlist li.comment ul.children li.depth-3 {
+  border-left: 5px solid #999;
+  margin: 0 0 10px 10px;
+}
+ol.commentlist li.comment ul.children li.depth-4 {
+  border-left: 5px solid #bbb;
+  margin: 0 0 10px 10px;
+}
+ol.commentlist li.comment ul.children li.depth-5 {
+}
+ol.commentlist li.comment ul.children li.odd {
+}
+ol.commentlist li.even {
+  background: #fff;
+}
+ol.commentlist li.odd {
+  background: #f6f6f6;
+}
+ol.commentlist li.parent {
+  border-left: 5px solid #111;
+}
+ol.commentlist li.thread-alt {
+}
+ol.commentlist li.thread-even {
+}
+ol.commentlist li.thread-odd {
+}
+form {
+}
+input[type="text"] {
+}
+textarea {
+}
+img.alignleft {
+  background: none repeat scroll 0 0 #d7d7d7;
+  float: left;
+  margin: 10px 15px 10px 0;
+  padding: 1px;
+  text-align: center;
+}
+.alignleft {
+  float: left;
+}
+img.alignright {
+  background: none repeat scroll 0 0 #d7d7d7;
+  float: right;
+  margin: 10px 0 10px 15px;
+  padding: 1px;
+  text-align: center;
+}
+.alignright {
+  float: right;
+}
+img.alignnone {
+  background: none repeat scroll 0 0 #d7d7d7;
+  padding: 1px;
+  text-align: center;
+}
+.alignnone {
+  float: none;
+  margin: 10px auto;
+  text-align: center;
+}

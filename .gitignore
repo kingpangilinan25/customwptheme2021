@@ -1,0 +1,8 @@
+_Store
+.vscode/
+auth.js
+node_modules
+notees/
+backup/
+index.php
+**/**-todo.md
